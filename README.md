@@ -15,9 +15,6 @@
   <a href='https://github.com/ElMassimo/vite_ruby/blob/main/LICENSE.txt'>
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' alt="License">
   </a>
-  <a href='https://www.paypal.me/maximomussini'>
-    <img src='https://img.shields.io/badge/paypal.me-maximomussini-009cde.svg?style=flat-square&logo=paypal' alt="Donate via PayPal">
-  </a>
 </p>
 
 [Sublime Text 4]: https://www.sublimetext.com/

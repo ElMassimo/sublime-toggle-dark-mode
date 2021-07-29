@@ -45,11 +45,11 @@ const release = async() => {
   }
 
   await execa('npm', ['--no-git-tag-version', 'version', version], { stdio: 'inherit' })
-  await execa('npx', ['conventional-changelog', '-p', 'angular', '-i', 'CHANGELOG.md', '-s', '-t', 'v'], { stdio: 'inherit' })
+  await execa('npx', ['conventional-changelog', '-p', 'angular', '-i', 'CHANGELOG.md', '-s'], { stdio: 'inherit' })
 
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `release: v${version}`], { stdio: 'inherit' })
-  await execa('git', ['tag', '-a', `v${version}`, '-m', `"Version ${version}"`], { stdio: 'inherit' })
+  await execa('git', ['tag', '-a', version, '-m', version`], { stdio: 'inherit' })
   await execa('git', ['push', 'origin', 'main', '--tags'], { stdio: 'inherit' })
 
   console.log(`[./scripts/release.js] Done releasing version: ${version}`)

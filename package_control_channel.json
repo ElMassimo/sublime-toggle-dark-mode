@@ -1,5 +1,5 @@
 {
-	"schema_version": "0.0.1",
+	"schema_version": "3.0.0",
 	"packages":
 	[
 		{
@@ -19,7 +19,6 @@
 			[
 				{
 					"sublime_text": ">=4096",
-					"platforms": ["osx", "windows", "linux"],
 					"tags": true
 				}
 			]
