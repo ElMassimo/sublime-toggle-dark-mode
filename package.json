@@ -1,6 +1,6 @@
 {
     "name": "sublime-toggle-dark-mode",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "Toggle between light and dark mode, according to your Sublime Text 4 preferences.",
     "author": {
         "name": "Maximo Mussini",
