@@ -9,8 +9,8 @@
   <a href='https://packagecontrol.io/packages/toggle-dark-mode'>
     <img src='https://img.shields.io/packagecontrol/dt/toggle-dark-mode.svg?style=flat-square' alt="Downloads Package Control">
   </a>
-  <a href='https://img.shields.io/github/tag/ElMassimo/sublime-toggle-dark-mode.svg?style=flat-square&logo=github'>
-    <img src='https://github.com/ElMassimo/sublime-toggle-dark-mode/tags' alt="Latest tag">
+  <a href='https://github.com/ElMassimo/sublime-toggle-dark-mode/tags'>
+    <img src='https://img.shields.io/github/tag/ElMassimo/sublime-toggle-dark-mode.svg?style=flat-square&logo=github' alt="Latest tag">
   </a>
   <a href='https://github.com/ElMassimo/vite_ruby/blob/main/LICENSE.txt'>
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' alt="License">
