@@ -1,0 +1,3 @@
+[
+  { "keys": ["ctrl+super+t"], "command": "toggle_dark_mode" }
+]

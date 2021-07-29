@@ -1,0 +1,25 @@
+# macOS
+
+.DS_Store
+Thumbs.db
+
+# Windows
+
+[Dd]esktop.ini
+
+# Node, Yarn
+
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Python
+
+*.cache
+*.log
+*.py[co]
+
+# Sublime Text
+
+*.sublime-workspace

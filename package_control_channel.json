@@ -1,0 +1,28 @@
+{
+	"schema_version": "0.0.1",
+	"packages":
+	[
+		{
+			"name": "Toggle Dark Mode",
+			"author": "Maximo Mussini (elmassimo)",
+			"details": "https://github.com/ElMassimo/sublime-toggle-dark-mode",
+			"donate": "https://paypal.me/maximomussini",
+			"labels":
+			[
+				"adaptive",
+				"automation",
+				"color scheme",
+				"dark mode",
+				"utilities"
+			],
+			"releases":
+			[
+				{
+					"sublime_text": ">=4096",
+					"platforms": ["osx", "windows", "linux"],
+					"tags": true
+				}
+			]
+		}
+	]
+}

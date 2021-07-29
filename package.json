@@ -1,0 +1,31 @@
+{
+    "name": "sublime-toggle-dark-mode",
+    "version": "0.0.0",
+    "description": "Toggle between light and dark mode, according to your Sublime Text 4 preferences.",
+    "author": {
+        "name": "Maximo Mussini",
+        "url": "https://github.com/ElMassimo"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/ElMassimo/sublime-toggle-dark-mode",
+    "bugs": {
+        "url": "https://github.com/ElMassimo/sublime-toggle-dark-mode/issues/new"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElMassimo/sublime-toggle-dark-mode.git"
+    },
+    "scripts": {
+        "release": "node scripts/release.js"
+    },
+    "engines": {
+        "node": ">= 13.11.0",
+        "npm": ">= 6.14.3"
+    },
+    "devDependencies": {
+        "conventional-changelog-cli": "^2.1.1",
+        "execa": "^4.0.0",
+        "inquirer": "^7.0.6",
+        "semver": "^7.1.3"
+    }
+}

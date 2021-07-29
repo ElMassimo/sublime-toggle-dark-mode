@@ -1,0 +1,70 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Toggle Dark Mode",
+                        "children":
+                        [
+                            {
+                                "caption": "Documentation",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/ElMassimo/sublime-toggle-dark-mode"
+                                }
+                            },
+                            {
+                                "caption": "Issues",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/ElMassimo/sublime-toggle-dark-mode/issues"
+                                }
+                            },
+                            { "caption": "-" },
+                                     {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Toggle Dark Mode/Keymaps/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Toggle Dark Mode/Keymaps/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Toggle Dark Mode/Keymaps/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Donations",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://www.paypal.me/maximomussini"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

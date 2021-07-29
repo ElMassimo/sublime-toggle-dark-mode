@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Toggle Dark Mode",
+        "command": "toggle_dark_mode",
+    },
+]
