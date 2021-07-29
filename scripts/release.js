@@ -49,7 +49,7 @@ const release = async() => {
 
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `release: v${version}`], { stdio: 'inherit' })
-  await execa('git', ['tag', '-a', version, '-m', version`], { stdio: 'inherit' })
+  await execa('git', ['tag', '-a', version, '-m', version], { stdio: 'inherit' })
   await execa('git', ['push', 'origin', 'main', '--tags'], { stdio: 'inherit' })
 
   console.log(`[./scripts/release.js] Done releasing version: ${version}`)
