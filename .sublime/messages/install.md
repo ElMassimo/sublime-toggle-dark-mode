@@ -7,11 +7,13 @@ according to your light and dark theme and color scheme preferences.
 It uses the native `auto` theme and color scheme feature in Sublime Text 4, but
 allows you to easily toggle dark mode without changing your OS preference.
 
-The default shortcuts are:
+You can use the command palette and run _Toggle Dark Mode_, or add a key binding:
 
-- OSX: ctrl+super+t
-- Windows: ctrl+shift+t
-- Linux: ctrl+shift+t
+```js
+[
+  { "keys": ["ctrl+shift+t"], "command": "toggle_dark_mode" },
+]
+```
 
 Additional documentation is available:
 * via the menu: `Preferences > Package Settings > toggle-dark-mode > Documentation`

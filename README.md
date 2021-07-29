@@ -21,8 +21,9 @@
 [Package Control]: https://packagecontrol.io/installation
 [package]: https://packagecontrol.io/packages/toggle-dark-mode
 
-The [_Toggle Dark Mode_][package] plugin for [Sublime Text 4] allows you to toggle the Theme and Color Scheme
-according to your light and dark theme and color scheme preferences.
+The [_Toggle Dark Mode_][package] plugin for [Sublime Text 4] allows you to
+toggle dark mode independently from the system preferences, according to your
+light and dark theme and color scheme preferences.
 
 It uses the `auto` theme and color scheme feature in Sublime Text 4, so it works
 out of the box without any configuration, and following your preferences.
@@ -38,26 +39,24 @@ out of the box without any configuration, and following your preferences.
 The plugin adds a command to toggle between your preferred light and dark theme
 and color scheme.
 
+There are two ways to use the command:
+
+- Open the command palette, and run _Toggle Dark Mode_
+- Add a key binding in `Preferences > Key Bindings`:
+
+  ```js
+  [ 
+    // for example, on Mac:
+    { "keys": ["ctrl+super+t"], "command": "toggle_dark_mode" },
+    // or
+    { "keys": ["ctrl+shift+t"], "command": "toggle_dark_mode" },
+  ]
+  ```
+
 ### Auto-Switching 🤖
 
 When toggling back to the current OS preference, it will switch `theme` and `color_scheme`
 back to `auto`, to leverage the auto-switching capability built-in in Sublime Text 4.
-
-### Default Key Bindings ⌨️
-
-The default key bindings are:
-
-- OSX: <kbd>control</kbd><kbd>⌘</kbd><kbd>t</kbd>
-- Windows: <kbd>ctrl</kbd><kbd>shift</kbd><kbd>t</kbd>
-- Linux: <kbd>ctrl</kbd><kbd>shift</kbd><kbd>t</kbd>
-
-You may customize your _Key Bindings_ and use a different shortcut:
-
-```js
-[
-  { "keys": ["ctrl+super+t"], "command": "toggle_dark_mode" },
-]
-```
 
 ### Configuration ⚙️
 
