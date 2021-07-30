@@ -16,5 +16,5 @@ You can use the command palette and run _Toggle Dark Mode_, or add a key binding
 ```
 
 Additional documentation is available:
-* via the menu: `Preferences > Package Settings > toggle-dark-mode > Documentation`
+* via the menu: `Preferences > Package Settings > Toggle Dark Mode > Documentation`
 * in the GitHub repo: https://github.com/ElMassimo/sublime-toggle-dark-mode

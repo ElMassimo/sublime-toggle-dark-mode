@@ -6,7 +6,7 @@
   <a href='https://www.sublimetext.com'>
     <img src='https://img.shields.io/badge/ST-Build%204096+-orange.svg?style=flat-square&logo=sublime-text' alt="Required Version">
   </a>
-  <a href='https://packagecontrol.io/packages/toggle-dark-mode'>
+  <a href='https://packagecontrol.io/packages/Toggle%20Dark%20Mode'>
     <img src='https://img.shields.io/packagecontrol/dt/toggle-dark-mode.svg?style=flat-square' alt="Downloads Package Control">
   </a>
   <a href='https://github.com/ElMassimo/sublime-toggle-dark-mode/tags'>
@@ -19,7 +19,7 @@
 
 [Sublime Text 4]: https://www.sublimetext.com/
 [Package Control]: https://packagecontrol.io/installation
-[package]: https://packagecontrol.io/packages/toggle-dark-mode
+[package]: https://packagecontrol.io/packages/Toggle%20Dark%20Mode
 
 The [_Toggle Dark Mode_][package] plugin for [Sublime Text 4] allows you to
 toggle dark mode independently from the system preferences, according to your
