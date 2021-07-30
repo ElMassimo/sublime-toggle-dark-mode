@@ -7,7 +7,7 @@
     <img src='https://img.shields.io/badge/ST-Build%204096+-orange.svg?style=flat-square&logo=sublime-text' alt="Required Version">
   </a>
   <a href='https://packagecontrol.io/packages/Toggle%20Dark%20Mode'>
-    <img src='https://img.shields.io/packagecontrol/dt/toggle-dark-mode.svg?style=flat-square' alt="Downloads Package Control">
+    <img src='https://img.shields.io/packagecontrol/dt/Toggle%20Dark%20Mode.svg?style=flat-square' alt="Downloads Package Control">
   </a>
   <a href='https://github.com/ElMassimo/sublime-toggle-dark-mode/tags'>
     <img src='https://img.shields.io/github/tag/ElMassimo/sublime-toggle-dark-mode.svg?style=flat-square&logo=github' alt="Latest tag">
