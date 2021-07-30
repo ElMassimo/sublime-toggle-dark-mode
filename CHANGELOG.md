@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/ElMassimo/sublime-toggle-dark-mode/compare/1.0.0...1.0.1) (2021-07-30)
+
+
+### Bug Fixes
+
+* link to the package in Package Control ([8b6efe6](https://github.com/ElMassimo/sublime-toggle-dark-mode/commit/8b6efe635f94d81daa52d998164e02fa333b9748))
+
+
+
 # [1.0.0](https://github.com/ElMassimo/sublime-toggle-dark-mode/compare/0.0.2...1.0.0) (2021-07-29)
 
 
