@@ -22,8 +22,8 @@ class ToggleDarkModeCommand(sublime_plugin.TextCommand):
       color_scheme = "auto"
     else:
       value = "light" if is_light else "dark"
-      theme = settings.get(f'{value}_theme')
-      color_scheme = settings.get(f'{value}_color_scheme')
+      theme = settings.get('%s_theme' % value)
+      color_scheme = settings.get('%s_color_scheme' % value)
 
     settings.set("theme", theme)
     settings.set("color_scheme", color_scheme)
