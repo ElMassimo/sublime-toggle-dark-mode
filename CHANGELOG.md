@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/ElMassimo/sublime-toggle-dark-mode/compare/1.0.2...1.0.3) (2021-08-09)
+
+
+### Bug Fixes
+
+* Make it compliant with Python 3.3 (close [#1](https://github.com/ElMassimo/sublime-toggle-dark-mode/issues/1)) ([196474c](https://github.com/ElMassimo/sublime-toggle-dark-mode/commit/196474c7d54c76bc9aa403186b6f8f6974ff73ff))
+
+
+
 ## [1.0.2](https://github.com/ElMassimo/sublime-toggle-dark-mode/compare/1.0.1...1.0.2) (2021-07-30)
 
 
